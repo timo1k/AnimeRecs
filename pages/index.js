@@ -47,7 +47,7 @@ const Home = () => {
         </div>
         <div className="prompt-container">
           <textarea
-            placeholder="Enter a phrase like: Recomend me a list of 5 romance animes like Toradora!"
+            placeholder="Enter in roughly, the number of episodes, length of episode, genre, and some animes you know!"
             className="prompt-box"
             value={userInput}
             onChange={onUserChangedText}
@@ -85,13 +85,12 @@ const Home = () => {
       </div>
       <div className="badge-container grow">
         <a
-          href="https://buildspace.so/builds/ai-writer"
+          href="https://www.linkedin.com/in/timothy-khumpan/"
           target="_blank"
           rel="noreferrer"
         >
           <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
+            <p>built by tim</p>
           </div>
         </a>
       </div>
